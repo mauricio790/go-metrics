@@ -1,0 +1,12 @@
+# modules
+*.mod
+
+#tests
+*.test
+unit-test/
+
+#script outputs
+*.html
+*.json
+
+pkg/
