@@ -18,7 +18,6 @@ func taskA(context telemetry.Context) {
 	// Simulate some work
 	time.Sleep(time.Duration(rand.Intn(100)) * time.Millisecond)	
     taskB(newContext)
-	taskC(newContext)
 }
 
 func taskB(context telemetry.Context) {
